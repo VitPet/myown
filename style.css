@@ -2,11 +2,12 @@ body{
 	background-image: url("back.jpg");
 	background-size: cover;
 	background-attachment: fixed;
+	background-position: center center;
 
 }
 
 .text-cont{
-	margin: 11vw 5vh;
+	margin: 13% auto;
 	font-weight: 700;
 	letter-spacing: 2px;
     font-family: 'Codystar', cursive;

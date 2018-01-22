@@ -1,0 +1,49 @@
+body{
+	background-image: url("back.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+
+}
+
+.text-cont{
+	
+	font-weight: 700;
+	letter-spacing: 2px;
+    font-family: 'Codystar', cursive;
+    color: #be0505;
+    height: 5000px;
+    width: 100%;
+}
+
+#code{
+	top: 21%;
+	left: 41.5%;
+	position: fixed;
+	display: block;
+	text-shadow: 0 0 100px red,0 0 40px red,0 0 40px red; 
+	font-size: 30px;
+	letter-spacing: 3px;
+}
+
+#code span:nth-of-type(2) {
+  color: #4c4c4c;
+  animation: lower 5s linear infinite;
+}
+#code span:nth-of-type(1) {
+  color: #4c4c4c;
+  text-shadow: none;
+}
+
+@keyframes lower {
+  0%,12%,18.999%,23%,31.999%,37%,44.999%,46%,49.999%,51%,58.999%,61%,68.999%,71%,85.999%,96%,100% {
+    opacity: 1;
+    color: #be0505;
+    text-shadow: 0 0 100px red,0 0 40px red,0 0 40px red;  
+
+  }
+  19%,22.99%,32%,36.999%,45%,45.999%,50%,50.99%,59%,60.999%,69%,70.999%,86%,95.999% { 
+    opacity: 1; 
+	color: #4c4c4c; 
+    text-shadow: none; 
+  }
+}

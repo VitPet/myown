@@ -6,7 +6,7 @@ body{
 }
 
 .text-cont{
-	
+	margin: 11vw 5vh;
 	font-weight: 700;
 	letter-spacing: 2px;
     font-family: 'Codystar', cursive;
@@ -16,13 +16,13 @@ body{
 }
 
 #code{
-	top: 21%;
-	left: 41.5%;
-	position: fixed;
+
 	display: block;
 	text-shadow: 0 0 100px red,0 0 40px red,0 0 40px red; 
 	font-size: 30px;
 	letter-spacing: 3px;
+	text-align: center;
+	font-size: 2vw;
 }
 
 #code span:nth-of-type(2) {
